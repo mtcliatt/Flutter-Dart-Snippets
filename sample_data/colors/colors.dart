@@ -40,3 +40,40 @@ static const List<MaterialColor> lighterPrimaries = <MaterialColor>[
   Colors.deepOrange,
   Colors.blueGrey,
 ];
+
+/// The same colors as Colors.primaries.
+const List<MaterialAccentColor> accents = <MaterialAccentColor>[
+  Colors.redAccent,
+  Colors.pinkAccent,
+  Colors.purpleAccent,
+  Colors.deepPurpleAccent,
+  Colors.indigoAccent,
+  Colors.blueAccent,
+  Colors.lightBlueAccent,
+  Colors.cyanAccent,
+  Colors.tealAccent,
+  Colors.greenAccent,
+  Colors.lightGreenAccent,
+  Colors.limeAccent,
+  Colors.yellowAccent,
+  Colors.amberAccent,
+  Colors.orangeAccent,
+  Colors.deepOrangeAccent,
+];
+
+/// Pretty much Colors.primaries, but without a few of the darker ones.
+const List<MaterialAccentColor> lighterAccents = <MaterialAccentColor>[
+  Colors.redAccent,
+  Colors.pinkAccent,
+  Colors.purpleAccent,
+  Colors.blueAccent,
+  Colors.lightBlueAccent,
+  Colors.cyanAccent,
+  Colors.tealAccent,
+  Colors.greenAccent,
+  Colors.lightGreenAccent,
+  Colors.limeAccent,
+  Colors.yellowAccent,
+  Colors.amberAccent,
+  Colors.orangeAccent,
+];
